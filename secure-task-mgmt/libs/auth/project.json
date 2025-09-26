@@ -1,0 +1,6 @@
+{
+  "name": "auth",
+  "sourceRoot": "libs/auth/src",
+  "projectType": "library",
+  "targets": {}
+}

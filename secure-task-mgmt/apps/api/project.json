@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "sourceRoot": "apps/api/src",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc -p apps/api/tsconfig.app.json"
+      },
+      "outputs": [
+        "{workspaceRoot}/dist/apps/api"
+      ]
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -r ts-node/register apps/api/src/main.ts"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "jest --config apps/api/jest.config.js"
+      }
+    }
+  }
+}

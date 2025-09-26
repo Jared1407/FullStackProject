@@ -1,0 +1,27 @@
+{
+  "extends": "nx/presets/npm.json",
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "!{projectRoot}/**/*.spec.*",
+      "!{projectRoot}/**/*.test.*"
+    ],
+    "production": [
+      "default"
+    ]
+  },
+  "targetDefaults": {
+    "build": {
+      "inputs": [
+        "production",
+        "^production"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "default",
+        "^default"
+      ]
+    }
+  }
+}

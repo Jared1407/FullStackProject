@@ -1,0 +1,24 @@
+{
+  "name": "dashboard",
+  "sourceRoot": "apps/dashboard/src",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'Build with Angular CLI locally' && exit 0"
+      }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'Run ng serve in apps/dashboard manually' && exit 0"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo 'Run ng test in apps/dashboard manually' && exit 0"
+      }
+    }
+  }
+}

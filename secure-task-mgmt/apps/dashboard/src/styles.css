@@ -1,0 +1,11 @@
+/* Tailwind placeholder (requires build step in real Angular app). Basic styles: */
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+.container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+.card { background: white; border-radius: 0.75rem; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.btn { padding: 0.5rem 0.75rem; border-radius: 0.5rem; border: 1px solid #ddd; background: #f8f8f8; cursor: pointer; }
+.btn.primary { background: #2563eb; color: white; border-color: #1d4ed8; }
+input, select, textarea { width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 0.5rem; }
+.list { display: grid; gap: 0.5rem; }
+.row { display: grid; grid-template-columns: 1fr auto auto; gap: 0.5rem; align-items: center; }
+.badge { display:inline-block; padding: 0.15rem 0.4rem; border-radius: 0.5rem; background:#eef; }
+.header { display:flex; justify-content: space-between; align-items:center; margin-bottom:1rem; }

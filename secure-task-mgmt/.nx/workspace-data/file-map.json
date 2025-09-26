@@ -1,0 +1,253 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.14",
+  "deps": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.6",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/typeorm": "^11.0.0",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "sqlite3": "^5.1.7",
+    "tslib": "^2.8.1",
+    "typeorm": "^0.3.27",
+    "@nx/workspace": "^19.7.3",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.9",
+    "@types/passport-jwt": "^4.0.1",
+    "jest": "^29.7.0",
+    "nx": "^19.7.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4"
+  },
+  "pathMappings": {
+    "@data/*": [
+      "libs/data/src/*"
+    ],
+    "@auth-lib/*": [
+      "libs/auth/src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "13371173127132401642"
+      },
+      {
+        "file": "tools/postinstall.js",
+        "hash": "9793353665771312477"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1216305188575682147"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4831879962961151008"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6547945033533535673"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17092976778699438947"
+      },
+      {
+        "file": "README.md",
+        "hash": "4296904545441079487"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15091004315062199127"
+      }
+    ],
+    "projectFileMap": {
+      "auth": [
+        {
+          "file": "libs/auth/project.json",
+          "hash": "14826085617330126413"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "15273030856899115970"
+        },
+        {
+          "file": "libs/auth/src/lib/jwt-auth.guard.ts",
+          "hash": "490308030298999117"
+        },
+        {
+          "file": "libs/auth/src/lib/org-scope.util.ts",
+          "hash": "13091741952990930275"
+        },
+        {
+          "file": "libs/auth/src/lib/permissions.decorator.ts",
+          "hash": "12967341523314953539"
+        },
+        {
+          "file": "libs/auth/src/lib/rbac.guard.ts",
+          "hash": "1171101999732047054"
+        },
+        {
+          "file": "libs/auth/src/lib/roles.decorator.ts",
+          "hash": "18219944176053589614"
+        }
+      ],
+      "data": [
+        {
+          "file": "libs/data/project.json",
+          "hash": "15282567556304581386"
+        },
+        {
+          "file": "libs/data/src/index.ts",
+          "hash": "2663870058715754415"
+        },
+        {
+          "file": "libs/data/src/lib/dto.ts",
+          "hash": "1486847303618781323"
+        },
+        {
+          "file": "libs/data/src/lib/enums.ts",
+          "hash": "23390847421569627"
+        },
+        {
+          "file": "libs/data/src/lib/interfaces.ts",
+          "hash": "8978729585463292066"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/.env.example",
+          "hash": "12149359690179466623"
+        },
+        {
+          "file": "apps/api/jest.config.js",
+          "hash": "11945528224524871867"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "10066473321792631346"
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "3367773615954197338"
+        },
+        {
+          "file": "apps/api/src/audit/audit.controller.ts",
+          "hash": "2432317466306150855"
+        },
+        {
+          "file": "apps/api/src/audit/audit.module.ts",
+          "hash": "10865773027444091470"
+        },
+        {
+          "file": "apps/api/src/audit/audit.service.ts",
+          "hash": "7295454753221257560"
+        },
+        {
+          "file": "apps/api/src/auth/auth.controller.ts",
+          "hash": "5280813719219209157"
+        },
+        {
+          "file": "apps/api/src/auth/auth.module.ts",
+          "hash": "13805601392976236637"
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.ts",
+          "hash": "12277979345637120563"
+        },
+        {
+          "file": "apps/api/src/auth/jwt.strategy.ts",
+          "hash": "13863076486687438060"
+        },
+        {
+          "file": "apps/api/src/auth/rbac.spec.ts",
+          "hash": "16694378354053748879"
+        },
+        {
+          "file": "apps/api/src/entities/org.entity.ts",
+          "hash": "1518440818341480192"
+        },
+        {
+          "file": "apps/api/src/entities/task.entity.ts",
+          "hash": "6945358322806501594"
+        },
+        {
+          "file": "apps/api/src/entities/user.entity.ts",
+          "hash": "14676951122032054590"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "3580727878217607789"
+        },
+        {
+          "file": "apps/api/src/orgs/orgs.module.ts",
+          "hash": "17898309607043584099"
+        },
+        {
+          "file": "apps/api/src/orgs/orgs.service.ts",
+          "hash": "1166157887340321359"
+        },
+        {
+          "file": "apps/api/src/tasks/tasks.controller.ts",
+          "hash": "16601556956348971939"
+        },
+        {
+          "file": "apps/api/src/tasks/tasks.module.ts",
+          "hash": "6658863706982845395"
+        },
+        {
+          "file": "apps/api/src/tasks/tasks.service.ts",
+          "hash": "8651493866911811098"
+        },
+        {
+          "file": "apps/api/src/users/users.module.ts",
+          "hash": "9419853095315077336"
+        },
+        {
+          "file": "apps/api/src/users/users.service.ts",
+          "hash": "8519625223154233513"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "8312633703463058256"
+        }
+      ],
+      "dashboard": [
+        {
+          "file": "apps/dashboard/project.json",
+          "hash": "12306955065275581360"
+        },
+        {
+          "file": "apps/dashboard/src/index.html",
+          "hash": "5025947975101686033"
+        },
+        {
+          "file": "apps/dashboard/src/main.js",
+          "hash": "5525518118834597759"
+        },
+        {
+          "file": "apps/dashboard/src/styles.css",
+          "hash": "1571627813126437448"
+        }
+      ]
+    }
+  }
+}
