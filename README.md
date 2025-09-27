@@ -124,7 +124,7 @@ curl -X POST http://localhost:3500/tasks   -H "Authorization: Bearer $TOKEN" -H 
 
 ## Testing
 
-- **API**: Simple Jest example in `apps/api/src/auth/rbac.spec.ts`. Extend with integration tests (supertest) for `/tasks`, `/audit-log`, and authentication flows.
+- **API**: Simple Jest example in `apps/api/src/auth/rbac.spec.ts`. Extend with integration tests (supertest) for `/tasks`, `/audit-log`, and authentication flows. Please also find the enviroment and collections in test_cases used to run test cases on this application using postman.
 - **Dashboard**: The example is framework-lite; if you adopt Angular CLI, enable Jest/Karma and write component/service tests accordingly.
 
 ## Environment
