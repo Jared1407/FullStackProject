@@ -1,5 +1,5 @@
 // Minimal dashboard (vanilla JS) to avoid heavy Angular scaffolding here.
-// It demonstrates auth + basic task CRUD using the API, storing JWT in localStorage.
+// It demonstrates auth + basic task CRUD using the API, storing JWT in localStorag.
 
 const API = localStorage.getItem('API_BASE') || 'http://localhost:3500';
 
