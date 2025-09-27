@@ -149,4 +149,3 @@ PORT=3500
 
 ---
 
-This implementation follows the requirements in the challenge brief and is ready to run locally with minimal setup.
