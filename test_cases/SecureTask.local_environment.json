@@ -1,0 +1,44 @@
+{
+  "id": "b1c2d3e4-5678-90ab-cdef-1029384756aa",
+  "name": "Secure Task (Local)",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3500",
+      "enabled": true
+    },
+    {
+      "key": "token",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "task_id",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "owner_email",
+      "value": "owner@acme.com",
+      "enabled": true
+    },
+    {
+      "key": "owner_password",
+      "value": "Password123!",
+      "enabled": true
+    },
+    {
+      "key": "viewer_email",
+      "value": "viewer@acme.com",
+      "enabled": true
+    },
+    {
+      "key": "viewer_password",
+      "value": "Password123!",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2025-09-26T03:55:00.000Z",
+  "_postman_exported_using": "ChatGPT"
+}
