@@ -8,3 +8,10 @@ logs
 *.sqlite
 *.db
 .DS_Store
+package-lock.json
+file-map.json
+lockfile.hash
+nx_files.nxt
+parsed-lock-file.json
+project-graph.json
+daemon.log
