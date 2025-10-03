@@ -29,7 +29,7 @@ export class RbacGuard implements CanActivate {
     // Map roles to permissions (inheritance: OWNER > ADMIN > VIEWER)
     const rolePerms: Record<Role, string[]> = {
       [Role.OWNER]: ['task:create','task:read','task:update','task:delete','audit:read'],
-      [Role.ADMIN]: ['task:create','task:read','task:update','task:delete','audit:read'],
+      [Role.ADMIN]: ['task:create','task:read','task:update','task:delete'],
       [Role.VIEWER]: ['task:read'],
     };
 
